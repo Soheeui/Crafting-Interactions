@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(
+        to top,
+     palevioletred,
+     #9af7ff,
+     hsl(var(--x),100%,40%)
+
+    );
+}
+.box {
+    position: absolute;
+    left: calc(var(--x) * 1px);
+    top: calc(var(--y) * 1px );
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    border-radius: 50%
+}
